@@ -2,5 +2,14 @@ server:
   port: 8081
 spring:
   data:
-   mongodb:
-    uri: mongodb://localhost:27017/springbootdb
+    mongodb:
+      uri: mongodb://localhost:27017/springbootdb
+logging:
+  level:
+    com.migangqui.example: debug
+data:
+  quantity:
+    total: 10000
+    found: 152
+  insert: false
+  delete: false

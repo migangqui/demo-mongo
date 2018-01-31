@@ -1,4 +1,4 @@
-package com.migangqui.example.mongodb.entity;
+package com.migangqui.example.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,10 +1,10 @@
-package com.migangqui.example.mongodb.repository;
+package com.migangqui.example.repository;
 
 import org.springframework.data.geo.Point;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
-import com.migangqui.example.mongodb.entity.Event;
+import com.migangqui.example.entity.Event;
 
 import java.util.List;
 

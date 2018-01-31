@@ -1,4 +1,4 @@
-package com.migangqui.example.mongodb;
+package com.migangqui.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
