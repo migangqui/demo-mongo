@@ -1,9 +1,10 @@
-package com.raddar.example.mongodb.repository;
+package com.migangqui.example.mongodb.repository;
 
-import com.raddar.example.mongodb.entity.Event;
 import org.springframework.data.geo.Point;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
+
+import com.migangqui.example.mongodb.entity.Event;
 
 import java.util.List;
 

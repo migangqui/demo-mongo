@@ -1,7 +1,5 @@
-package com.raddar.example.mongodb.bootstrap;
+package com.migangqui.example.mongodb.bootstrap;
 
-import com.raddar.example.mongodb.entity.Event;
-import com.raddar.example.mongodb.repository.EventRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.geo.Distance;
@@ -9,6 +7,9 @@ import org.springframework.data.geo.Metrics;
 import org.springframework.data.geo.Point;
 import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
 import org.springframework.stereotype.Component;
+
+import com.migangqui.example.mongodb.entity.Event;
+import com.migangqui.example.mongodb.repository.EventRepository;
 
 import javax.annotation.PostConstruct;
 import java.util.List;
